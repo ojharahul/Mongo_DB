@@ -1,0 +1,166 @@
+2022-11-10 00:22:16,235 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:22:16,236 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:22:16,236 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:23:46,018 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:23:46,018 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:23:46,031 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:23:46,031 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:23:46,510 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:25:20,701 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:25:20,701 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:25:20,701 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:25:20,701 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:25:21,398 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:25:21,399 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:27:01,592 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:27:01,593 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:27:01,593 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:27:01,593 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:27:02,415 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:27:02,415 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:27:02,500 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:27:02,500 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:27:02,542 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:27:02,575 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:27:02,642 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:27:02,642 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:27:02,642 -- ERROR -- MyMongo -- documents must be a non-empty list
+Traceback (most recent call last):
+  File "C:\Users\rahul.ojha\MongoDBTask\my_mongo.py", line 86, in insert_many_docs
+    self.coll.insert_many(list)
+  File "C:\Users\rahul.ojha\AppData\Local\Programs\Python\Python39\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\rahul.ojha\AppData\Local\Programs\Python\Python39\lib\site-packages\pymongo\collection.py", line 691, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+2022-11-10 00:27:02,660 -- INFO -- MyMongo -- data insererted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:32:06,899 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:32:06,900 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:32:06,900 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:32:06,900 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:32:07,459 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:32:07,459 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:32:07,477 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:32:07,477 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:32:07,517 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:32:07,557 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:32:07,626 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:32:07,626 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:32:07,626 -- ERROR -- MyMongo -- documents must be a non-empty list
+Traceback (most recent call last):
+  File "C:\Users\rahul.ojha\MongoDBTask\my_mongo.py", line 86, in insert_many_docs
+    self.coll.insert_many(list)
+  File "C:\Users\rahul.ojha\AppData\Local\Programs\Python\Python39\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\rahul.ojha\AppData\Local\Programs\Python\Python39\lib\site-packages\pymongo\collection.py", line 691, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+2022-11-10 00:32:07,628 -- INFO -- MyMongo -- data insererted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:33:40,152 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:33:40,152 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:33:40,152 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:33:40,152 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:33:40,718 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:33:50,626 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:33:50,627 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:33:50,627 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:33:50,627 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:33:51,165 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:33:51,166 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:40:21,020 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:40:21,020 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:40:21,020 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:40:21,021 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:40:21,414 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:40:21,414 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:40:21,438 -- ERROR -- MyMongo -- Raising exception since csv file is not passed 
+2022-11-10 00:40:21,438 -- ERROR -- MyMongo -- You have not entered a csv file: carbon_nanotubes.txt
+Traceback (most recent call last):
+  File "C:\Users\rahul.ojha\MongoDBTask\my_mongo.py", line 139, in insert_from_csv
+    raise Exception(f"You have not entered a csv file: {file_name}")
+Exception: You have not entered a csv file: carbon_nanotubes.txt
+2022-11-10 00:41:57,823 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:41:57,823 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:41:57,823 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:41:57,823 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:41:58,453 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:41:58,454 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:41:58,476 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:41:58,476 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:41:58,518 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:41:58,547 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:41:58,613 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:41:58,613 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:41:58,613 -- ERROR -- MyMongo -- documents must be a non-empty list
+Traceback (most recent call last):
+  File "C:\Users\rahul.ojha\MongoDBTask\my_mongo.py", line 86, in insert_many_docs
+    self.coll.insert_many(list)
+  File "C:\Users\rahul.ojha\AppData\Local\Programs\Python\Python39\lib\site-packages\pymongo\_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\rahul.ojha\AppData\Local\Programs\Python\Python39\lib\site-packages\pymongo\collection.py", line 691, in insert_many
+    raise TypeError("documents must be a non-empty list")
+TypeError: documents must be a non-empty list
+2022-11-10 00:41:58,614 -- INFO -- MyMongo -- data inserted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:43:52,463 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:43:52,463 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:43:52,464 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:43:52,464 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:43:52,857 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'admin', 'local']
+2022-11-10 00:43:52,857 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:43:52,878 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:43:52,878 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:43:52,898 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:43:52,921 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:43:52,988 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:43:52,989 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:43:55,348 -- INFO -- MyMongo -- Many record inserted.
+2022-11-10 00:43:55,348 -- INFO -- MyMongo -- data inserted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:45:48,385 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:45:48,385 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:45:48,386 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:45:48,386 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:45:49,196 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'carbon', 'admin', 'local']
+2022-11-10 00:45:49,197 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:45:50,270 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:45:50,270 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:45:50,285 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:45:50,306 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:45:50,371 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:45:50,371 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:45:52,268 -- INFO -- MyMongo -- Many record inserted.
+2022-11-10 00:45:52,268 -- INFO -- MyMongo -- data inserted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:45:52,273 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:47:12,052 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:47:12,058 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:47:12,058 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:47:12,058 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:47:12,691 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'carbon', 'admin', 'local']
+2022-11-10 00:47:12,691 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:47:14,739 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:47:14,739 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:47:14,754 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:47:14,774 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:47:14,855 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:47:14,855 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:47:17,870 -- INFO -- MyMongo -- Many record inserted.
+2022-11-10 00:47:17,871 -- INFO -- MyMongo -- data inserted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:47:17,878 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:47:20,446 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:48:17,413 -- INFO -- MyMongo -- Creating database : carbon
+2022-11-10 00:48:17,413 -- INFO -- MyMongo -- Creating collection : carbon_nanotubes in database : Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon')
+2022-11-10 00:48:17,413 -- INFO -- MyMongo -- Connection created with mongo db atlas
+2022-11-10 00:48:17,413 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:48:17,853 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'carbon', 'admin', 'local']
+2022-11-10 00:48:17,853 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:48:20,158 -- INFO -- MyMongo -- Formatting input file : carbon_nanotubes.csv
+2022-11-10 00:48:20,159 -- INFO -- MyMongo -- Reading file: carbon_nanotubes.csv
+2022-11-10 00:48:20,174 -- INFO -- MyMongo -- File read and stored to list
+2022-11-10 00:48:20,193 -- INFO -- MyMongo -- Formatted data written to file: carbon_nanotubes.csv_formatted.csv
+2022-11-10 00:48:20,258 -- INFO -- MyMongo -- Input file converted to list of dictionaries
+2022-11-10 00:48:20,258 -- INFO -- MyMongo -- Inserting many documents in collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:48:22,543 -- INFO -- MyMongo -- Many record inserted.
+2022-11-10 00:48:22,544 -- INFO -- MyMongo -- data inserted from input file : carbon_nanotubes.csv to collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:48:22,553 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:48:25,964 -- INFO -- MyMongo -- selecting all the documents from the collection : Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'carbon'), 'carbon_nanotubes')
+2022-11-10 00:48:28,633 -- INFO -- MyMongo -- Listing all the databases 
+2022-11-10 00:48:28,659 -- INFO -- MyMongo -- Databases available are : ['Rahul', 'carbon', 'admin', 'local']
